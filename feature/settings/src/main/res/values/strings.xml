@@ -1,0 +1,7 @@
+<resources>
+    <string name="settings_title">Ayarlar</string>
+    <string name="language_current">Dil: %1$s</string>
+    <string name="toggle_language">Dili Değiştir</string>
+    <string name="sound">Ses</string>
+    <string name="back">Geri</string>
+</resources>

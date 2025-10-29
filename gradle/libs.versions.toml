@@ -1,0 +1,73 @@
+[versions]
+androidGradlePlugin = "8.2.2"
+androidxActivityCompose = "1.8.2"
+androidxAppcompat = "1.6.1"
+androidxComposeBom = "2024.02.01"
+androidxComposeCompiler = "1.5.8"
+androidxComposeMaterial3 = "1.2.0"
+androidxCoreKtx = "1.12.0"
+androidxLifecycle = "2.7.0"
+androidxNavigation = "2.7.7"
+androidxDataStore = "1.0.0"
+coil = "2.4.0"
+coroutines = "1.7.3"
+exoplayer = "1.1.1"
+firebaseBom = "32.7.2"
+hilt = "2.50"
+hiltNavigationCompose = "1.1.0"
+okhttp = "4.11.0"
+retrofit = "2.9.0"
+moshi = "1.15.0"
+room = "2.6.1"
+playServicesAuth = "20.7.0"
+ktlint = "11.6.1"
+detekt = "1.23.5"
+turbine = "1.0.0"
+mockk = "1.13.8"
+truth = "1.1.5"
+composeUiTestJunit4 = "1.5.4"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivityCompose" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidxAppcompat" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCoreKtx" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidxLifecycle" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidxNavigation" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "androidxDataStore" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+exo-player = { module = "androidx.media3:media3-exoplayer", version.ref = "exoplayer" }
+exo-ui = { module = "androidx.media3:media3-ui", version.ref = "exoplayer" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
+okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+truth = { module = "com.google.truth:truth", version.ref = "truth" }
+compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "composeUiTestJunit4" }
+
+[bundles]
+coroutines = ["coroutines-core", "coroutines-android"]
+retrofit = ["retrofit", "retrofit-moshi", "okhttp-logging"]
+room = ["androidx-room-runtime", "androidx-room-ktx"]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.22" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.22" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }

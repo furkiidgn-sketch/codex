@@ -1,0 +1,6 @@
+<resources>
+    <string name="onboarding_title">ŞarkoGuess'e Hoş Geldin</string>
+    <string name="onboarding_subtitle">Apple Music önizlemeleriyle şarkıyı tahmin et.</string>
+    <string name="sign_in_anon">Anonim Devam Et</string>
+    <string name="start_game">Devam</string>
+</resources>

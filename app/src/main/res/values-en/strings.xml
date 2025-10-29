@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SharkoGuess</string>
+    <string name="onboarding_title">Welcome to SharkoGuess</string>
+    <string name="onboarding_subtitle">Listen to the preview and pick the correct song.</string>
+    <string name="sign_in_anon">Continue as Guest</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="search_hint">Search artist</string>
+    <string name="play_solo">Play Solo</string>
+    <string name="play_versus">Match 1v1</string>
+    <string name="select_category">Choose genre</string>
+    <string name="select_era">Choose era</string>
+    <string name="start_game">Start Game</string>
+    <string name="question_counter">Question %1$d/%2$d</string>
+    <string name="time_remaining">Time: %1$02d</string>
+    <string name="apple_attribution">Data provided by Apple Music</string>
+    <string name="open_in_apple_music">Open in Apple Music</string>
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="settings_title">Settings</string>
+    <string name="language">Language</string>
+    <string name="sound">Sound</string>
+    <string name="privacy">Privacy</string>
+</resources>
