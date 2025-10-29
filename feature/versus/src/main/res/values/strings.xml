@@ -1,0 +1,8 @@
+<resources>
+    <string name="match_state">Durum: %1$s</string>
+    <string name="score_you">Sen: %1$d</string>
+    <string name="score_opponent">Rakip: %1$d</string>
+    <string name="opponent_connected">Rakip bağlı</string>
+    <string name="opponent_disconnected">Rakip bağlantısı koptu</string>
+    <string name="leave_match">Maçtan çık</string>
+</resources>

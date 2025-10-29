@@ -1,0 +1,4 @@
+<resources>
+    <string name="search_hint">Sanatçı ara</string>
+    <string name="leaderboard_shortcut">Lider Tablosu</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="leaderboard_title">Lider Tablosu</string>
+    <string name="score_format">Skor: %1$d</string>
+    <string name="back">Geri</string>
+    <string name="period_all">Tümü</string>
+    <string name="period_weekly">Haftalık</string>
+</resources>

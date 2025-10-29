@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ŞarkoGuess</string>
+    <string name="onboarding_title">ŞarkoGuess'e Hoş Geldin</string>
+    <string name="onboarding_subtitle">Şarkıyı dinle ve doğru şıkkı seç.</string>
+    <string name="sign_in_anon">Anonim Devam Et</string>
+    <string name="sign_in_google">Google ile Giriş</string>
+    <string name="search_hint">Sanatçı ara</string>
+    <string name="play_solo">Solo Oyna</string>
+    <string name="play_versus">1v1 Eşleş</string>
+    <string name="select_category">Tür seç</string>
+    <string name="select_era">Dönem seç</string>
+    <string name="start_game">Oyunu Başlat</string>
+    <string name="question_counter">Soru %1$d/%2$d</string>
+    <string name="time_remaining">Kalan: %1$02d</string>
+    <string name="apple_attribution">Veriler Apple Music tarafından sağlanmaktadır</string>
+    <string name="open_in_apple_music">Apple Music ile aç</string>
+    <string name="leaderboard_title">Lider Tablosu</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="language">Dil</string>
+    <string name="sound">Ses</string>
+    <string name="privacy">Gizlilik</string>
+</resources>
